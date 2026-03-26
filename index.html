@@ -85,7 +85,7 @@
     .contact-links{display:flex;flex-wrap:wrap;gap:1rem;justify-content:center}
     .contact-link{display:flex;align-items:center;gap:.5rem;background:var(--surface2);border:1px solid var(--border);color:var(--text);text-decoration:none;padding:.7rem 1.5rem;border-radius:10px;font-size:.9rem;font-weight:500;transition:all .2s}
     .contact-link:hover{border-color:var(--accent);color:var(--accent);transform:translateY(-2px)}
-    footer{text-align:center;padding:2rem;border-top:1px solid var(--border);color:var(--muted);font-size:.82rem}
+    footer{text-align:center;padding:2rem;border-top:1px solid var(--border);color:var(--muted);font-size:.82rem}    .profile-img-wrap{display:flex;justify-content:center;margin-bottom:2rem}    .profile-img{width:160px;height:160px;border-radius:50%;object-fit:cover;object-position:top;border:3px solid var(--accent);box-shadow:0 0 0 6px rgba(88,166,255,.15),0 8px 32px rgba(0,0,0,.4);transition:transform .3s}    .profile-img:hover{transform:scale(1.05)}
     @media(max-width:640px){nav{padding:0 1rem}.nav-links{gap:1rem}.about-grid{grid-template-columns:1fr}.contact-wrapper{padding:2rem 1.2rem}}
   </style>
       </head>
@@ -98,7 +98,7 @@
       </nav>
       <section class="hero">
         <div class="hero-inner">
-          <div class="hero-badge">Available for Opportunities</div>
+          <div class="profile-img-wrap"><img src="profile.jpg" alt="Ravali Paruchuri" class="profile-img"/></div><div class="hero-badge">Available for Opportunities</div>
           <h1>Hi, I'm <span>Ravali Paruchuri</span></h1>
           <p class="hero-sub">Backend Developer building scalable SaaS platforms, real-time IoT systems, and AI-powered APIs with TypeScript and Node.js.</p>
           <div class="hero-contacts">
